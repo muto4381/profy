@@ -49,6 +49,11 @@ test:
 #
 production:
   <<: *default
-  database: profy_production
-  username: profy
-  password: <%= ENV['PROFY_DATABASE_PASSWORD'] %>
+  database: 4a16d48632216f11bd89ef0e90a1aba6
+  username: 4a16d48632216f11bd89ef0e90a1aba6
+  password: tjimdag56982W
+  host: mysql-2.mc.lolipop.lan
+  
+  #database: profy_production
+  #username: profy
+  #password: <%= ENV['PROFY_DATABASE_PASSWORD'] %>
